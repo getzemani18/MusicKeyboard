@@ -13,8 +13,12 @@ body {
     display:grid;
     justify-content: center;
     align-items: center;
+
     
 }
+
+
+
 h1 {
    color:yellow;  
    font-size: 40px;
@@ -64,3 +68,36 @@ footer > span {
    font-size: 0.9em;
    color: white;
  }
+
+ @media  all and (max-width: 700px){
+    body{
+        width: auto;
+        display: grid;
+    }
+    h1{
+        width: auto;
+    }
+    .piano{
+        width:30%;
+    }
+    footer  > span {
+        width: auto;
+    }
+}
+
+@media all and (min-width: 300px) {
+    body{
+        width: auto;
+        display: grid;
+    }
+    h1{
+        width: auto;
+    }
+    .piano{
+        width:30%;
+    }
+    footer  > span {
+        width: auto;
+    }
+}
+ 
